@@ -22,12 +22,10 @@
 
 # If you're using certain directories for sources or configuration, allow them too:
 !src/
+!src/*
 !include/
-!src/test
-!scr/navier-stokes
-!src/grid
-!src/darcsit
-
+!_darcs/
+!_darcs/*
 
 # Keep the README.md file
 !README.md

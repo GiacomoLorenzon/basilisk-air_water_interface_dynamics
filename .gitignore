@@ -1,69 +1,31 @@
-# Prerequisites
-*.d
+# Ignore everything
+*
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# But keep these specific files/directories:
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Include C source files
+!*.c
+!*.h
 
-# Precompiled Headers
-*.gch
-*.pch
+# Include Makefiles (if you're using Make)
+!Makefile
+!Makefile.in
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Include CMakeLists.txt (if you're using CMake)
+!CMakeLists.txt
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Include any necessary config files
+!config.h
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Include scripts or other important files for development
+!*.sh
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# If you're using certain directories for sources or configuration, allow them too:
+!src/
+!include/
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Keep the README.md file
+!README.md
 
-# output
-.ppm
-.csv
-output/
-.eps
-.txt
-figures/
-
-# Ignore compiled executables and binaries in the build directory
-build/
-cmake-build-debug/
-cmake-build-release/
-Makefile
-CMakeCache.txt
-CMakeFiles/
-CMakeScripts/
+# Keep the .gitignore file itself
+!.gitignore

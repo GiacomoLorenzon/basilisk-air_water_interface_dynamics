@@ -2,7 +2,7 @@ Certainly! Here’s a `README.md` based on your provided LaTeX document:
 
 ---
 
-# Rising.c: A Basilisk Simulation
+# rising.c: a Basilisk simulation
 
 ## Overview
 

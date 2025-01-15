@@ -1,0 +1,9 @@
+.qccSL1BBo/bview.c:1:7: warning: line number out of range
+bview-cpp.c: warning: line number out of range
+<built-in>: warning: line number out of range
+/u/sw/toolchains/gcc-glibc/11.2.0/prefix/include/stdc-predef.h:1:7: warning: line number out of range
+In file included from /u/sw/toolchains/gcc-glibc/11.2.0/prefix/include/bits/libc-header-start.h:33,
+                 from /u/sw/toolchains/gcc-glibc/11.2.0/prefix/include/stdint.h:26,
+                 from /u/sw/toolchains/gcc-glibc/11.2.0/prefix/lib/gcc/x86_64-mk-linux/11.2.0/include/stdint.h:9,
+                 from bview-cpp.c:6:
+/u/sw/toolchains/gcc-glibc/11.2.0/prefix/include/features.h:397:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]

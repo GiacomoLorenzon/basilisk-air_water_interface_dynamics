@@ -1,0 +1,61 @@
+.qcc0jxcGL/rising.c:1:7: warning: line number out of range
+rising-cpp.c: warning: line number out of range
+<built-in>: warning: line number out of range
+/u/sw/toolchains/gcc-glibc/11.2.0/prefix/include/stdc-predef.h:1:7: warning: line number out of range
+In file included from /u/sw/toolchains/gcc-glibc/11.2.0/prefix/include/bits/libc-header-start.h:33,
+                 from /u/sw/toolchains/gcc-glibc/11.2.0/prefix/include/stdint.h:26,
+                 from /u/sw/toolchains/gcc-glibc/11.2.0/prefix/lib/gcc/x86_64-mk-linux/11.2.0/include/stdint.h:9,
+                 from rising-cpp.c:6:
+/u/sw/toolchains/gcc-glibc/11.2.0/prefix/include/features.h:397:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+/root/mnt/basilisk/src/utils.h: In function 'gradients':
+/root/mnt/basilisk/src/utils.h:246:16: error: 'fs' undeclared (first use in this function); did you mean 's'?
+/root/mnt/basilisk/src/utils.h:246:16: note: each undeclared identifier is reported only once for each function it appears in
+/root/mnt/basilisk/src/utils.h:246:21: error: expected expression before ']' token
+/root/mnt/basilisk/src/utils.h:246:21: error: expected expression before ']' token
+/root/mnt/basilisk/src/utils.h:255:21: error: expected expression before ']' token
+/root/mnt/basilisk/src/utils.h:255:21: error: expected expression before ']' token
+/root/mnt/basilisk/src/bcg.h: In function 'advection':
+/root/mnt/basilisk/src/bcg.h:95:5: warning: implicit declaration of function 'update_tracer'; did you mean 'update_perf'? [-Wimplicit-function-declaration]
+/root/mnt/basilisk/src/poisson.h: In function 'poisson':
+/root/mnt/basilisk/src/poisson.h:429:49: error: 'embed' undeclared (first use in this function)
+/root/mnt/basilisk/src/poisson.h:430:20: error: 'embed_flux' undeclared (first use in this function)
+/root/mnt/basilisk/src/viscosity-embed.h: In function 'relax_diffusion':
+/root/mnt/basilisk/src/viscosity-embed.h:52:57: error: 'RHO' undeclared (first use in this function)
+/root/mnt/basilisk/src/viscosity-embed.h: In function 'residual_diffusion':
+/root/mnt/basilisk/src/viscosity-embed.h:89:79: error: 'RHO' undeclared (first use in this function)
+/root/mnt/basilisk/src/viscosity-embed.h: In function 'viscosity':
+/root/mnt/basilisk/src/viscosity-embed.h:134:45: error: 'embed' undeclared (first use in this function)
+/root/mnt/basilisk/src/viscosity-embed.h:134:70: error: 'embed_flux' undeclared (first use in this function)
+/root/mnt/basilisk/src/navier-stokes/centered.h: In function 'defaults_0':
+/root/mnt/basilisk/src/navier-stokes/centered.h:163:39: error: 'refine_embed_face_x' undeclared (first use in this function); did you mean 'refine_face_x'?
+/root/mnt/basilisk/src/navier-stokes/centered.h:163:35: error: 'refine_embed_face_y' undeclared (first use in this function); did you mean 'refine_face_y'?
+/root/mnt/basilisk/src/navier-stokes/centered.h:165:35: error: 'restriction_embed_linear' undeclared (first use in this function)
+/root/mnt/basilisk/src/navier-stokes/centered.h:166:61: error: 'refine_embed_linear' undeclared (first use in this function); did you mean 'refine_bilinear'?
+/root/mnt/basilisk/src/navier-stokes/centered.h:167:66: error: 'cs' undeclared (first use in this function); did you mean 's'?
+/root/mnt/basilisk/src/navier-stokes/centered.h:170:20: error: '_Attributes' has no member named 'embed_gradient'
+/root/mnt/basilisk/src/navier-stokes/centered.h: In function 'prediction':
+/root/mnt/basilisk/src/navier-stokes/centered.h:259:14: error: 'fs' undeclared (first use in this function); did you mean 'fm'?
+/root/mnt/basilisk/src/navier-stokes/centered.h:259:19: error: expected expression before ']' token
+/root/mnt/basilisk/src/navier-stokes/centered.h:259:19: error: expected expression before ']' token
+/root/mnt/basilisk/src/navier-stokes/centered.h:269:19: error: expected expression before ']' token
+/root/mnt/basilisk/src/navier-stokes/centered.h:269:19: error: expected expression before ']' token
+/root/mnt/basilisk/src/navier-stokes/centered.h: In function 'adapt':
+/root/mnt/basilisk/src/navier-stokes/centered.h:440:3: warning: implicit declaration of function 'fractions_cleanup' [-Wimplicit-function-declaration]
+/root/mnt/basilisk/src/navier-stokes/centered.h:440:22: error: 'cs' undeclared (first use in this function); did you mean 'cm'?
+/root/mnt/basilisk/src/navier-stokes/centered.h:440:26: error: 'fs' undeclared (first use in this function); did you mean 'fm'?
+/root/mnt/basilisk/src/navier-stokes/centered.h:442:34: error: expected expression before ']' token
+/root/mnt/basilisk/src/navier-stokes/centered.h:442:34: error: expected expression before ']' token
+/root/mnt/basilisk/src/vof.h: In function 'sweep_x':
+/root/mnt/basilisk/src/vof.h:209:9: error: 'cs' undeclared (first use in this function); did you mean 's'?
+/root/mnt/basilisk/src/vof.h:209:12: error: expected expression before ']' token
+/root/mnt/basilisk/src/vof.h:209:12: error: expected expression before ']' token
+/root/mnt/basilisk/src/vof.h:209:12: error: expected expression before ']' token
+/root/mnt/basilisk/src/vof.h:209:12: error: expected expression before ']' token
+/root/mnt/basilisk/src/vof.h:297:12: error: expected expression before ']' token
+/root/mnt/basilisk/src/vof.h: In function 'sweep_y':
+/root/mnt/basilisk/src/vof.h:209:9: error: 'cs' undeclared (first use in this function); did you mean 's'?
+/root/mnt/basilisk/src/vof.h:209:12: error: expected expression before ']' token
+/root/mnt/basilisk/src/vof.h:209:12: error: expected expression before ']' token
+/root/mnt/basilisk/src/vof.h:209:12: error: expected expression before ']' token
+/root/mnt/basilisk/src/vof.h:209:12: error: expected expression before ']' token
+/root/mnt/basilisk/src/vof.h:297:12: error: expected expression before ']' token

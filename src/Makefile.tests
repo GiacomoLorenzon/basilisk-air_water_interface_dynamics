@@ -1,0 +1,20 @@
+# Automatically generated using 'make Makefile.tests'
+# DO NOT EDIT, edit 'Makefile' instead
+ALLTESTS = \
+	bview.c \
+	include.c \
+	postproc.c \
+	qcc.c \
+	qplot.c \
+
+plots: \
+	mtrace/plot.png \
+	profiling/plot.png \
+	speed/plot.png \
+
+TESTS = \
+
+SPECIAL_TESTS = \
+
+ALLPAGES = \
+

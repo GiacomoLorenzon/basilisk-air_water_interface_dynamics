@@ -75,5 +75,5 @@ desktop.ini
 *.plot
 
 # Ignore files named 'log' or 'ref' with no extension
-.log
-.ref
+*.log
+*.ref

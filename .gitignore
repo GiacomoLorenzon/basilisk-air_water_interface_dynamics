@@ -1,34 +1,75 @@
-# Ignore everything
-*
+# Ignore object files and other intermediate files
+*.o
+*.obj
+*.elf
+*.a
+*.lib
+*.so
+*.dll
+*.out
 
-# But keep these specific files/directories:
+# Ignore executables
+*.exe
+*.out
+*.app
+*.dSYM
 
-# Include C source files
-!*.c
-!*.h
+# Ignore compiled binary files
+*.exe
+*.dll
+*.so
+*.dylib
 
-# Include Makefiles (if you're using Make)
-!Makefile
-!Makefile.in
+# Ignore editor-specific files
+*.swp
+*.swo
+*.swn
+*.vscode/
+.idea/
 
-# Include CMakeLists.txt (if you're using CMake)
-!CMakeLists.txt
+# Ignore dependency files
+*.d
 
-# Include any necessary config files
-!config.h
+# Ignore CMake build directories
+/build/
+cmake-build-debug/
+cmake-build-release/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+makefile
 
-# Include scripts or other important files for development
-!*.sh
+# Ignore system-specific files
+Thumbs.db
+desktop.ini
+.DS_Store
 
-# If you're using certain directories for sources or configuration, allow them too:
-!src/
-!src/*
-!include/
-!_darcs/
-!_darcs/*
+# Ignore all text files
+*.txt
 
-# Keep the README.md file
-!README.md
+# Ignore figure and image files
+*.fig
+*.png
+*.jpeg
+*.jpg
+*.ppm
+*.peg
+*.gif
+*.bmp
+*.tiff
+*.webp
+*.svg
+*.raw
+*.ico
+*.heif
+*.heic
+*.pdf
+*.ai
+*.eps
+*.indd
 
-# Keep the .gitignore file itself
-!.gitignore
+# Ignore LaTeX files
+*.tex
+
+# Ignore .plot files
+*.plot

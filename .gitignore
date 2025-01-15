@@ -50,3 +50,20 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# output
+.ppm
+.csv
+output/
+.eps
+.txt
+figures/
+
+# Ignore compiled executables and binaries in the build directory
+build/
+cmake-build-debug/
+cmake-build-release/
+Makefile
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/

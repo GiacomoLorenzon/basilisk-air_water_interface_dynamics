@@ -54,7 +54,7 @@ event output_velocity_field_bubble(t = 3.0) {
 ### 5. **Bubble Shape Visualization**
 For visualization, the shape of the rising bubble at different refinement levels can be plotted to understand how the bubble's characteristics change with increasing grid resolution. Below is an example of the bubble shape across different refinement levels:
 
-![Bubble Shape](convergence_test_shape_zoom.eps)
+![Bubble Shape](convergence_test_shape_zoom.png)
 
 _Levels:_
 - `LEVEL = 7`: pink
